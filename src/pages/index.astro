@@ -185,53 +185,56 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
+    id="docs"
     actions={[
       {
-        variant: 'primary',
+        variant: 'secondary',
         text: 'Requirements document',
         href: '#',
         target: '_blank',
       },
       {
-        variant: 'primary',
+        variant: 'secondary',
         text: 'Design document',
         href: '#',
         target: '_blank',
       },
       {
-        variant: 'primary',
+        variant: 'secondary',
         text: 'Testing design document',
         href: '#',
         target: '_blank',
       },
       {
-        variant: 'primary',
+        variant: 'secondary',
         text: 'User manual',
         href: '#',
         target: '_blank',
       },
       {
-        variant: 'primary',
+        variant: 'secondary',
         text: 'Maintenance manual',
         href: '#',
         target: '_blank',
       },
       {
-        variant: 'primary',
+        variant: 'secondary',
         text: 'Source code',
-        href: '#',
+        href: 'https://github.com/Software-Engineering-Project-BGU/NetBioMonitor',
         target: '_blank',
       },
       {
-        variant: 'primary',
+        variant: 'secondary',
         text: 'Production system',
-        href: '#',
+        href: 'https://netbiomonitor.sneakybugs.com',
         target: '_blank',
       },
     ]}
   >
-    <Fragment slot="title"> Manuals and documents </Fragment>
+    <Fragment slot="title"> Manuals and documents</Fragment>
 
-    <!-- <Fragment slot="subtitle"></Fragment> -->
+    <Fragment slot="subtitle">
+    Everything related to the development of NetBioMonitor
+    </Fragment>
   </CallToAction>
 </Layout>

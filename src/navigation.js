@@ -2,7 +2,7 @@ import { getPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [],
-  actions: [{ text: 'Documents and links', href: '#callToAction' }],
+  actions: [{ text: 'Documents and links', href: '#docs' }],
 };
 
 export const footerData = {
