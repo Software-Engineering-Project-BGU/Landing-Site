@@ -76,7 +76,6 @@ export default defineConfig({
 
   image: {
     service: squooshImageService(),
-    domains: ['cdn.pixabay.com'],
   },
 
   markdown: {
